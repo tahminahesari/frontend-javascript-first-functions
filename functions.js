@@ -31,3 +31,4 @@ console.log(greeting);
 /* Opdracht 4 */
 // Schrijf een functie genaamd getDetails, die een object met daarin jouw eigen naam en achternaam teruggeeft.
 // ---- Verwachte uitkomst bij het aanroepen van de functie: { firstName: 'Jan', lastName: 'Janssen' }
+
