@@ -7,7 +7,6 @@ function morningGreeter() {
 }
 
 const greeting = morningGreeter();
-
 console.log(greeting);
 
 /* Opdracht 1 */
@@ -19,22 +18,23 @@ function getSchool() {
 }
 
 const school = getSchool();
-console.log(school);
+console.log(getSchool());
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd compliment, die jou een complimentje geeft!
 // ---- Verwachte uitkomst bij het aanroepen van de functie: "Lekker bezig met die functies, Jan!"
 
-function congratulate(){
+function giveCompliment(){
   return "Lekker bezig met die functie, Qalbem!"
 }
-const congrats = congratulate();
-console.log(congrats);
+const compliment = giveCompliment();
+console.log(compliment);
 
 
 /* Opdracht 3 */
 // Schrijf een functie genaamd getGrades, die een array met de cijfers 8, 8.5, 6 en 7 teruggeeft.
 // ---- Verwachte uitkomst bij het aanroepen van de functie: [8, 8.5, 6, 7]
+
 function getGrades(){
   return [8, 8.5, 6, 7];
   }
@@ -47,16 +47,12 @@ console.log(grades);
 // ---- Verwachte uitkomst bij het aanroepen van de functie: { firstName: 'Jan', lastName: 'Janssen' }
 
 function getDetails(){
-  return name;
+  return { firstName: 'Tahmina', lastName: 'Hesari' }
 }
 
-const name = {
-  firstName: 'Tahmina',
-  lastName: 'Hesari',
-  printInfo: () => {
-    console.log(name.firstName.name.lastName);
-  }
-}
+const details = getDetails();
+console.log(details);
+
 
 
 
